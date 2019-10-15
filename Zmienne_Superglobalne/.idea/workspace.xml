@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="94c8c8ef-677d-49a4-9623-7d1118b8ac4b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="PhpServers">
+    <servers>
+      <server host="localhost" id="7ea1c72f-57da-4743-b9fc-975f20c68489" name="Unnamed" />
+    </servers>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.2" />
+  <component name="ProjectId" id="1S1qu3td9FPou8zxsRmMuKeIV6G" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/index.php" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="settings.php.debug.servers" />
+  </component>
+  <component name="RunManager" selected="PHP Web Page.Unnamed">
+    <configuration name="ZadanieNumer1" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ZadanieNumer1" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/index.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="Unnamed" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" nameIsGenerated="true" browser="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" server_name="Unnamed" start_url="/PhpstormProjects/ZadanieNumer1">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.ZadanieNumer1" />
+      <item itemvalue="PHP Web Page.Unnamed" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.ZadanieNumer1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="94c8c8ef-677d-49a4-9623-7d1118b8ac4b" name="Default Changelist" comment="" />
+      <created>1570741668857</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570741668857</updated>
+      <workItem from="1570741670013" duration="5792000" />
+      <workItem from="1570831984515" duration="9602000" />
+      <workItem from="1570906943195" duration="7000" />
+      <workItem from="1570909616626" duration="3316000" />
+      <workItem from="1571078676558" duration="12235000" />
+      <workItem from="1571129209038" duration="17570000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="963" y="135" width="824" height="691" key="#CLI_Interpreters" timestamp="1571078902393">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="963" y="135" width="824" height="691" key="#CLI_Interpreters/70.27.1850.1053@70.27.1850.1053" timestamp="1571078902393" />
+    <state x="640" y="142" width="700" height="830" key="#PHP" timestamp="1570746377832">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="640" y="142" width="700" height="830" key="#PHP/70.27.1850.1053@70.27.1850.1053" timestamp="1570746377832" />
+    <state x="578" y="211" width="824" height="691" key="#Servers" timestamp="1571078980319">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="578" y="211" width="824" height="691" key="#Servers/70.27.1850.1053@70.27.1850.1053" timestamp="1571078980319" />
+    <state x="590" y="214" width="800" height="684" key="#Web_Browsers" timestamp="1570741848805">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="590" y="214" width="800" height="684" key="#Web_Browsers/70.27.1850.1053@70.27.1850.1053" timestamp="1570741848805" />
+    <state x="453" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1571079899180">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="453" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1571079899180" />
+    <state x="778" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1570742804525">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="778" y="311" width="424" height="491" key="FileChooserDialogImpl/70.27.1850.1053@70.27.1850.1053" timestamp="1570742804525" />
+    <state x="790" y="479" width="399" height="156" key="NewPhpFileDialog" timestamp="1570741680995">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="790" y="479" width="399" height="156" key="NewPhpFileDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1570741680995" />
+    <state x="320" y="200" width="1054" height="737" key="SettingsEditor" timestamp="1571137265270">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="320" y="200" width="1054" height="737" key="SettingsEditor/70.27.1850.1053@70.27.1850.1053" timestamp="1571137265270" />
+    <state x="651" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1571129215076">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="651" y="381" key="com.intellij.ide.util.TipDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1571129215076" />
+    <state x="659" y="216" width="662" height="682" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1570745468160">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="659" y="216" width="662" height="682" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/70.27.1850.1053@70.27.1850.1053" timestamp="1570745468160" />
+    <state x="659" y="252" key="run.anything.popup" timestamp="1570910991058">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="659" y="252" key="run.anything.popup/70.27.1850.1053@70.27.1850.1053" timestamp="1570910991058" />
+    <state x="658" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1570894053774">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="658" y="259" width="672" height="678" key="search.everywhere.popup/70.27.1850.1053@70.27.1850.1053" timestamp="1570894053774" />
+  </component>
+</project>
