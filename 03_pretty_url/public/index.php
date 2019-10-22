@@ -16,24 +16,24 @@ $example_users = [
     ],
     3 => [
         'name' => 'Paul',
-        'surname' => 'Smith',
+        'surname' => 'Moustache',
         'age' => 18
     ]
 ];
 
 $uri = $_SERVER['REQUEST_URI'];
+$i = substr($uri, strrpos($uri, '/') + 1); #return number at the end of URL in case of user/{INT},
+                                                        #and in user.php to chose the right person
 
 if($uri == '/'){
     $file = "../views/home.php";
 }
-else if($uri == "user.php?id=1"){
-        $file = "../views/user.php";
+elseif($uri == "/user/$i"){
+    $file = "../views/user.php";
 }
 else
     $file = "../views/" . $uri . ".php";
 
-
-
-require_once($file);
+require_once("../views/layout.php");
 
 ?>
