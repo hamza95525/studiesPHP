@@ -29,8 +29,8 @@ $example_users = [
     ],
     3 => [
         'name' => 'Paul',
-        'surname' => 'Smith',
-        'age' => 18
+        'surname' => 'Moustache',
+        'age' => 22
     ]
 ];
 
