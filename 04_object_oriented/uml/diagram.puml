@@ -1,0 +1,87 @@
+@startuml
+
+class App {
+    + run()
+    - render(Widget\Widget)
+}
+
+namespace Widget {
+
+    abstract class Widget {
+        + draw()
+    }
+
+    class Link {
+        + draw()
+    }
+
+    class Button {
+        + draw()
+    }
+
+    Widget <|-- Link
+    Widget <|-- Button
+}
+
+App ..> Widget.Widget : draws
+App ..> Widget.Button : creates
+App ..> Widget.Link : creates
+
+namespace Concept {
+
+    abstract class Distinguishable {
+        - id
+        + key() : string
+        - normalize(string)
+    }
+}
+
+Concept.Distinguishable <|-- Widget.Widget
+
+namespace Config {
+
+    class Directory {
+        - {static} root
+        + {static} set(string)
+        + {static} root() : string
+        + {static} storage() : string
+        + {static} view() : string
+        + {static} src() : string
+    }
+}
+
+namespace Storage {
+
+    interface Storage {
+        + store(Distinguishable)
+        + loadAll() : array
+    }
+
+    class SessionStorage {
+        + store(Distinguishable)
+        + loadAll() : array
+    }
+
+    class FileStorage {
+        + store(Distinguishable)
+        + loadAll() : array
+    }
+
+    Storage <|-- SessionStorage
+    Storage <|-- FileStorage
+}
+
+Storage.Storage ..> Concept.Distinguishable : stores/loads
+Storage.FileStorage ..> Config.Directory : uses
+
+App ..> Storage.FileStorage : creates
+App ..> Storage.SessionStorage : creates
+App ..> Storage.Storage : uses
+
+package index.php <<Rectangle>> {
+}
+
+index.php ..> App : creates
+index.php ..> Config.Directory : configures
+
+@enduml
