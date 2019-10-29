@@ -1,12 +1,14 @@
 <?php
 
 
-namespace Widget;
+namespace Widgets;
 
 
-class Link extends \Widget\Widget
+class Link extends Widget
 {
     public function draw(){
-        echo "<a href='/public/index.php'>Link</a>";
+        $napis = $this -> key();
+        echo "<br>";
+        echo "<a href='#'>$napis</a>";
     }
 }

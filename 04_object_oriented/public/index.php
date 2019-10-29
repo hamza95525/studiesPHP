@@ -9,6 +9,10 @@ ini_set("display_errors", "On");
 
 require ("../autoload.php");
 
+$dir = new \Config\Directory();
+$dir::set(__DIR__);
+
+
 // App example
 
 $app = new App();

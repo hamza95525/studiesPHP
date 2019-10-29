@@ -1,10 +1,12 @@
 <?php
 
 
-namespace Widget;
+namespace Widgets;
 
 
-abstract class Widget extends \Concept\Distinguishable
+use Concept\Distinguishable;
+
+abstract class Widget extends Distinguishable
 {
     abstract public function draw();
 }

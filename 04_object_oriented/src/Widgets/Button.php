@@ -1,12 +1,15 @@
 <?php
 
 
-namespace Widget;
+namespace Widgets;
 
 
-class Button extends \Widget\Widget
+class Button extends Widget
 {
     public function draw(){
-        echo "<button typ='button'>Click on me!</button>>";
+        $napis = $this->key();
+        echo "<button typ='button' value='widget_button_2'>$napis</button>";
     }
+
+
 }
