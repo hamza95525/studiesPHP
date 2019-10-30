@@ -20,13 +20,13 @@ class App
 
         $storage = new SessionStorage();
         #$storage = new FileStorage();
-        #$storage = new SQLiteStorage(); // TODO: ...
+        $storage1 = new SQLiteStorage(); // TODO: ...
         #$storage = new MySQLStorage(); // TODO: ...
 
         foreach ($widgets as $widget)
-            $storage->store($widget);
+            $storage1->store($widget);
 
-        $widgets = $storage->loadAll();
+        $widgets = $storage1->loadAll();
 
         foreach ($widgets as $widget)
             $this->render($widget);
