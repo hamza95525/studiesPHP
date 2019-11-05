@@ -8,7 +8,9 @@ class Directory
 
     public static function set($root)
     {
-        Directory::$root = $root;
+       // Directory::$root = $root;
+        static::$root = str_replace('public','',$root);
+
     }
 
     public static function root()

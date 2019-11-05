@@ -12,40 +12,45 @@ class SQLiteStorage implements Storage
 
     public function __construct()
     {
-        // TODO: ...
-        $path = Directory::storage() . "db.sqlite";
-        $dsn = "sqlite:" . $path;
-        $this->pdo = new PDO($dsn);
-        $this->pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+       try{
+            if($this->pdo==null){
+                $path = Directory::storage() . "db.sqlite";
+                $dsn = "sqlite:" . $path;
+                $this->pdo = new PDO($dsn);
+                $this->pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+                $this->pdo->exec("CREATE TABLE IF NOT EXISTS tables( id VARCHAR[30] PRIMARY KEY, data TEXT NOT NULL);" );
+            }
+            return $this->pdo;
+
+        } catch(PDOException $e){
+            logerror($e->getMessage(), "opendatabase");
+            print "Error in open ".$e->getMessage();
+        }
     }
 
     public function store(Distinguishable $distinguishable)
     {
-        // TODO: ...
-        $this->pdo->exec("CREATE TABLE IF NOT EXISTS myTable (id INTEGER PRIMARY KEY, data TEXT NOT NULL)" );
-        $id = 1;
-        $name = serialize($distinguishable);
-        $sql = 'INSERT INTO myTable VALUES ($id, $name)';
-        $this->pdo->prepare($sql);
-       // $stmt->bindValue(':Haj', $distinguishable->key());
-        $this->pdo->execute();
+        $id = $distinguishable->key();
+        $serializedData = serialize($distinguishable);
+
+        $statement = $this->pdo->prepare("INSERT OR REPLACE INTO tables VALUES (:id, :data);");
+        $statement->bindValue('id', $id);
+        $statement->bindValue('data', $serializedData);
+        $statement->execute();
 
     }
 
-    public function loadAll()
+    public function loadAll() : array
     {
         $MyArray = array();
 
-        $statement = $this->pdo->prepare('SELECT * FROM myTable');
-        $objects = $statement->fetchAll();
+        $query = $this->pdo->query("SELECT * FROM tables");
+        $rows = $query->fetchAll(PDO::FETCH_COLUMN,1);
 
-        print_r($objects);
+        foreach($rows as $value){
+            array_push($MyArray, unserialize($value));
+        }
 
-       /* foreach($objects as $object){
-            $MyArray += unserialize($object);
-        }*/
-
-        $MyArray = $statement->execute();
         return $MyArray; // TODO: ...
     }
 }

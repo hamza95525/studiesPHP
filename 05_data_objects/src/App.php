@@ -18,15 +18,15 @@ class App
             new Button(1), new Button(2), new Button(3)
         ];
 
-        $storage = new SessionStorage();
+        #$storage = new SessionStorage();
         #$storage = new FileStorage();
-        $storage1 = new SQLiteStorage(); // TODO: ...
-        #$storage = new MySQLStorage(); // TODO: ...
+        #$storage = new SQLiteStorage(); // TODO: ...
+        $storage = new MySQLStorage(); // TODO: ...
 
         foreach ($widgets as $widget)
-            $storage1->store($widget);
+            $storage->store($widget);
 
-        $widgets = $storage1->loadAll();
+        $widgets = $storage->loadAll();
 
         foreach ($widgets as $widget)
             $this->render($widget);
