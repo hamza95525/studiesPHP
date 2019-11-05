@@ -26,7 +26,7 @@ class MySQLStorage implements Storage
         $id = $distinguishable->key();
         $serializedData = serialize($distinguishable);
 
-        $statement = $this->pdo->prepare("INSERT OR REPLACE INTO tables VALUES (:id, :data);");
+        $statement = $this->pdo->prepare("INSERT INTO tables VALUES (:id, :data);");
         $statement->bindValue('id', $id);
         $statement->bindValue('data', $serializedData);
         $statement->execute();
