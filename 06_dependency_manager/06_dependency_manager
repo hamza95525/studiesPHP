@@ -2,7 +2,7 @@ server {
 	listen 8006 default_server;
 	listen [::]:8006 default_server;
 
-	root /path/to/public;
+	root /home/student/repos/php_2019_g2_khamzat_sultanov/06_dependency_manager/public;
 
 	index index.php;
 
