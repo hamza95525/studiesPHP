@@ -1,0 +1,8 @@
+{
+    "name": "khamza_shakur/06_dependency_manager",
+    "description": "Dummy project",
+    "type": "project",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "require": {}
+}
