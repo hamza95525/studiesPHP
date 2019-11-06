@@ -20,7 +20,7 @@ class App
             $MyFiles ->store($link[$i]);
 
             $storage ->store($button[$i]);
-            $MyFiles ->store($button[$i]);
+            $MyFiles ->store($button[$i]); //we
         }
         $Array = $storage->loadAll(); //loading all from session and putting all into array
         $ArrayF = $MyFiles->loadAll(); //loading all from Files and putting all into array

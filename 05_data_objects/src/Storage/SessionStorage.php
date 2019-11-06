@@ -23,6 +23,8 @@ class SessionStorage implements Storage
         foreach ($_SESSION as $key => $value) {
             $result[] = unserialize($value);
         }
+
+        print_r($result);
         return $result;
     }
 }

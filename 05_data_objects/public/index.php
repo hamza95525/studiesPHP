@@ -11,7 +11,7 @@ require ("../autoload.php");
 
 // Setup directory config
 
-Config\Directory::set("../");
+Config\Directory::set(__DIR__);
 
 // App example
 

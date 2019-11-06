@@ -2,7 +2,8 @@ server {
 	listen 8005 default_server;
 	listen [::]:8005 default_server;
 
-	root /home/student/repos/php_2019_g2_khamzat_sultanov/05_data_objects/public;
+	root /home/khamza/repos/php_2019_g2_khamzat_sultanov/05_data_objects/public;
+
 
 	index index.php;
 
