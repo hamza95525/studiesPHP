@@ -4,5 +4,15 @@
     "type": "project",
     "license": "MIT",
     "minimum-stability": "stable",
-    "require": {}
+    "require": {
+        "php": ">7.0",
+        "monolog/monolog": "^2.0",
+        "predis/predis": "^1.1"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    }
 }
