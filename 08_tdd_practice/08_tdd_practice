@@ -1,0 +1,20 @@
+server {
+	listen 8008 default_server;
+	listen [::]:8008 default_server;
+
+	root /home/student/repos/php_2019_g2_khamzat_sultanov/08_tdd_practice/public;
+
+	index index.php;
+
+	server_name _;
+
+	location / {
+		try_files $uri $uri/ /index.php;
+	}
+
+	location ~ \.php$ {
+		include snippets/fastcgi-php.conf;
+	
+		fastcgi_pass unix:/var/run/php/php7.2-fpm.sock;
+	}
+}

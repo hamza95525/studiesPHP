@@ -27,7 +27,7 @@ class RedisStorage implements Storage
         foreach ($value as $item) {
             array_push($MyArray, unserialize($this->client->get($item)));
         }
-        
+
         return $MyArray;
     }
 }
