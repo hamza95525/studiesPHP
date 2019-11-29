@@ -102,6 +102,7 @@ class RingBufferCest
 
         $ringBuffer->push(20);
 
+        $I->assertEquals(1,$ringBuffer->capacity());
         $I->assertEquals(1, $ringBuffer->size());
         $I->assertEquals(20, $ringBuffer->tail());
 
