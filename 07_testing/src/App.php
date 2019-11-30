@@ -17,6 +17,7 @@ class App
         $option = $parts[0] ?? 'home' ?: 'home';
 
         $controllerClassName = "Controller\\" . ucwords($option) . "Controller";
+        echo($controllerClassName);
 
         if (class_exists($controllerClassName)) {
 

@@ -1,1 +1,1 @@
-<p>Welcome on homepage!</p>
+<h1 class = "welcome">Welcome!</h1>
