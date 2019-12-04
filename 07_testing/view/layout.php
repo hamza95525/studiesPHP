@@ -6,6 +6,16 @@
         case '../view/auth/register/index.php':
             $title = 'Register';
             break;
+        case '../view/auth/confirmation_notice/index.php':
+            $title = "Confirmation notice";
+            break;
+        case '../view/auth/login/index.php':
+            $title = "Login";
+            break;
+    }
+
+if (session_status() == PHP_SESSION_NONE) {
+    session_start();
 }
 ?>
 
