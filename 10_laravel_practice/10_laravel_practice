@@ -2,7 +2,7 @@ server {
 	listen 8010 default_server;
 	listen [::]:8010 default_server;
 
-	root /path/to/public;
+	root /home/student/repos/php_2019_g2_khamzat_sultanov/10_laravel_practice/public;
 
 	index index.php;
 
