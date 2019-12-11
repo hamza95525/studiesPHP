@@ -20,13 +20,6 @@
           </versions>
         </cache>
       </tool>
-      <tool tool_name="PHPUnit">
-        <cache>
-          <versions>
-            <info id="Local" version="8.4.3" />
-          </versions>
-        </cache>
-      </tool>
     </tools_cache>
   </component>
 </project>

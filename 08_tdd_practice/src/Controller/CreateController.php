@@ -4,7 +4,10 @@
 namespace Controller;
 
 
-class CreateController extends Controller
+class CommentsCreateController extends Controller
 {
-
+    public function index()
+    {
+        return "create.index";
+    }
 }
