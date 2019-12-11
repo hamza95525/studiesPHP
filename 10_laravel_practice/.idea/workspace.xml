@@ -2,41 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06c53bff-e591-482b-bcb2-7b9d57e9e879" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../07_testing/src/Container/RingBuffer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07_testing/src/Controller/AuthController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07_testing/src/Model/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07_testing/src/String/Editor.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07_testing/view/auth/confirmation_notice/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07_testing/view/auth/login/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07_testing/view/auth/register/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Book.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/BookController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/CommentController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/factories/CommentFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2019_12_11_072900_create_books_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/books/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/books/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/comments/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/comments/show.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests_codeception/acceptance/03_BooksCept.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07_testing/07_testing" beforeDir="false" afterPath="$PROJECT_DIR$/../07_testing/07_testing" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07_testing/tests/unit/RingBufferCest.php" beforeDir="false" afterPath="$PROJECT_DIR$/../07_testing/tests/unit/RingBufferCest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07_testing/view/home/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/../07_testing/view/home/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07_testing/view/layout.php" beforeDir="false" afterPath="$PROJECT_DIR$/../07_testing/view/layout.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07_testing/view/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/../07_testing/view/menu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../08_tdd_practice/src/Controller/CreateController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../08_tdd_practice/src/Controller/CreateController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../08_tdd_practice/view/comments/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/../08_tdd_practice/view/comments/create/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php-test-framework.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php-test-framework.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Comment.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Comment.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CommentsController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/CommentsFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/BookFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_12_04_073624_create_comments_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_11_23_164710_create_comments_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/comments.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Book.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Book.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BookController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BookController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/books/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/books/create.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +14,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable path="composer" />
@@ -68,28 +38,25 @@
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="test@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="test@localhost [2]" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="test@localhost [2]" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="test@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="test@localhost [2]" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="test: schema" type="76f4a085:MysqlImplModel$Schema" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="test@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="test@localhost [2]" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="test: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="comments: table" type="285a2a93:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="test@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="test: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="posts: table" type="285a2a93:MysqlImplModel$Table" />
+        <item name="books: table" type="285a2a93:MysqlImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -274,7 +241,12 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@396a2cef" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@db8fdfad" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@db8fdfad" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@6ec40733" type="9fbbdea:ServiceModel$ServiceNode" />
             </path>
           </expand>
           <select />
@@ -293,6 +265,8 @@
       <option name="presentableId" value="Default" />
       <updated>1576048519755</updated>
       <workItem from="1576048522469" duration="4580000" />
+      <workItem from="1576070883484" duration="1862000" />
+      <workItem from="1576077315864" duration="3193000" />
     </task>
     <servers />
   </component>
@@ -304,7 +278,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

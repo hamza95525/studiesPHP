@@ -36,7 +36,13 @@ class BookController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $this->validate($request, [
+                'isbn' => 'required|digits:13',
+                'title' => 'required',
+                'description' => 'required'
+            ]);
+        
+        return redirect()->route('books.create');
     }
 
     /**
