@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06c53bff-e591-482b-bcb2-7b9d57e9e879" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/books/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/books/show.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Book.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Book.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BookController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BookController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_12_11_072900_create_books_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_12_11_072900_create_books_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/books/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/books/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/books/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/books/index.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,11 +67,16 @@
     <select />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="13a5a31ef8eca8e8d8a3b3c862c4105a5fc6b2b0" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="PhpServers">
     <servers>
-      <server host="localhost" id="e7cb4d68-1b40-4a01-9fb3-414bb1a28d1b" name="Unnamed" port="8010" />
+      <server host="localhost" id="e7cb4d68-1b40-4a01-9fb3-414bb1a28d1b" name="Unnamed" port="8000" />
     </servers>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.2">
@@ -194,6 +204,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/books" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -238,17 +249,7 @@
     <option name="allServicesViewState">
       <serviceView>
         <treeState>
-          <expand>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@db8fdfad" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@db8fdfad" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@6ec40733" type="9fbbdea:ServiceModel$ServiceNode" />
-            </path>
-          </expand>
+          <expand />
           <select />
         </treeState>
       </serviceView>
@@ -266,7 +267,10 @@
       <updated>1576048519755</updated>
       <workItem from="1576048522469" duration="4580000" />
       <workItem from="1576070883484" duration="1862000" />
-      <workItem from="1576077315864" duration="3193000" />
+      <workItem from="1576077315864" duration="3541000" />
+      <workItem from="1576081826056" duration="1711000" />
+      <workItem from="1576083625955" duration="4785000" />
+      <workItem from="1576088683173" duration="5959000" />
     </task>
     <servers />
   </component>

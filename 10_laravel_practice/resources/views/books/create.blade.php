@@ -8,11 +8,11 @@
                     <form action={{ route("books.store") }}  method="post">
 
                         {{csrf_field()}}
-                        <input type="text" name="isbn">
+                        <input type="text" name="isbn" value={{ old('isbn') }}>
                         <br>
-                        <input type="text" name="title">
+                        <input type="text" name="title" value={{old('title')}}>
                         <br>
-                        <input type="text" name="description">
+                        <input type="text" name="description" value={{old('description')}}>
                         <br>
 
                         <button type="submit" name="submitbutton">Create</button>
