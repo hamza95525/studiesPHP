@@ -1,43 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06c53bff-e591-482b-bcb2-7b9d57e9e879" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../07_testing/src/Container/RingBuffer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07_testing/src/Controller/AuthController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07_testing/src/Model/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07_testing/src/String/Editor.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07_testing/view/auth/confirmation_notice/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07_testing/view/auth/login/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07_testing/view/auth/register/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Book.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/BookController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/CommentController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/factories/CommentFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2019_12_11_072900_create_books_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/books/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/books/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/comments/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/comments/show.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests_codeception/acceptance/03_BooksCept.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07_testing/07_testing" beforeDir="false" afterPath="$PROJECT_DIR$/../07_testing/07_testing" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07_testing/tests/unit/RingBufferCest.php" beforeDir="false" afterPath="$PROJECT_DIR$/../07_testing/tests/unit/RingBufferCest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07_testing/view/home/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/../07_testing/view/home/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07_testing/view/layout.php" beforeDir="false" afterPath="$PROJECT_DIR$/../07_testing/view/layout.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07_testing/view/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/../07_testing/view/menu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../08_tdd_practice/src/Controller/CreateController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../08_tdd_practice/src/Controller/CreateController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../08_tdd_practice/view/comments/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/../08_tdd_practice/view/comments/create/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php-test-framework.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php-test-framework.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Comment.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Comment.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CommentsController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/CommentsFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/BookFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_12_04_073624_create_comments_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_11_23_164710_create_comments_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/comments.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-    </list>
+    <list default="true" id="06c53bff-e591-482b-bcb2-7b9d57e9e879" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -292,7 +256,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576048519755</updated>
-      <workItem from="1576048522469" duration="4580000" />
+      <workItem from="1576048522469" duration="4831000" />
     </task>
     <servers />
   </component>
