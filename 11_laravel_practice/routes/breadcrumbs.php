@@ -21,8 +21,6 @@ Breadcrumbs::for('books.edit', function ($trail, $book) {
 
 //===================================================================================
 
-
-
 Breadcrumbs::for('comments.index', function ($trail) {
     $trail->push('comments', route('comments.index'));
 });
