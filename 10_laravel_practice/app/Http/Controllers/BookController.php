@@ -36,7 +36,20 @@ class BookController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $this->validate($request, [
+                'isbn' => 'required|digits:13',
+                'title' => 'required',
+                'description' => 'required'
+            ]);
+
+        $book = new Book();
+        $book->isbn = $request->isbn;
+        $book->title = $request->title;
+        $book->description = $request->description;
+        $book->save();
+
+
+        return redirect()->route('books.show', $book);
     }
 
     /**
@@ -58,7 +71,7 @@ class BookController extends Controller
      */
     public function edit(Book $book)
     {
-        //
+        return view('books.edit')->withBook($book);
     }
 
     /**
@@ -70,7 +83,18 @@ class BookController extends Controller
      */
     public function update(Request $request, Book $book)
     {
-        //
+        $this->validate($request, [
+            'isbn' => 'required|digits:13',
+            'title' => 'required',
+            'description' => 'required'
+        ]);
+
+        $book->isbn = $request->isbn;
+        $book->title = $request->title;
+        $book->description = $request->description;
+        $book->save();
+
+        return redirect()->route('books.show', $book);
     }
 
     /**
@@ -81,6 +105,8 @@ class BookController extends Controller
      */
     public function destroy(Book $book)
     {
-        //
+        $book->delete();
+
+        return redirect()->route('books.index')->withErrors('ERRRRRRRRRRRRRRRRRRRRRO');
     }
 }

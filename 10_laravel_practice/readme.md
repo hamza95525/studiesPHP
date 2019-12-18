@@ -38,3 +38,7 @@ php artisan migrate:fresh
 php artisan db:seed
 mysqldump -u test test -p > tests_codeception/_data/dump.sql
 ```
+
+            $table->string('isbn');
+            $table->string('title');
+            $table->text('description');
